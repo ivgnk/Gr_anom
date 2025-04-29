@@ -4,6 +4,7 @@ The calculation for the grid obtained by numpy.meshgrid is piecemeal, not vector
 """
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
 
 lst=list(range(2001))
 # Создаем сетку
@@ -13,13 +14,16 @@ X, Y = np.meshgrid(x, y)
 
 # Создаем массив для результатов
 F = np.empty_like(X)
+print('\nF = np.empty_like(X)')
+print(F)
+# sys.exit()
 
 # Проходим по всем элементам поэлементно
 for i in range(X.shape[0]):
     for j in range(X.shape[1]):
         # Выполняем нужную операцию с X[i, j] и Y[i, j]
         F[i, j] = X[i, j] + Y[i, j]  # пример: сложение элементов
-
+print('\nF after calc')
 print(F)
 
 n_iso = 15 # num isolines

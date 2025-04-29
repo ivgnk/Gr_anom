@@ -5,6 +5,7 @@ https://heybro.ai
 import numpy as np
 import matplotlib.pyplot as plt
 import inspect
+from greek_symbols import up_gr_symb
 
 # Константы
 G = 6.67430e-11  # гравитационная постоянная, м^3/(кг·с^2)
@@ -93,6 +94,7 @@ class Grav_sphere():
     """
     sphere_count:int = 0
     Calced: bool = False
+    name='Гравитационное поле шара при разных удалениях'
 
     def __init__(self, nx=nxi, ny=nyi, center=centeri,
                  xmin=xmini, xmax=xmaxi,
@@ -108,6 +110,7 @@ class Grav_sphere():
         self.xmax = xmax
         self.ymin = ymin
         self.ymax = ymax
+        self.F = None
         Grav_sphere.sphere_count += 1
         Grav_sphere.Calced = False
 
@@ -143,27 +146,39 @@ class Grav_sphere():
         Непосредственно расчет гравитационного поля шара
         на основе gravity_field_vector(center, point)
         """
+        self.F = np.empty_like(self.xn)
         print(f"\nFunction = {inspect.currentframe().f_code.co_name}")  # Вывод имени функции
+        for i in range(self.xn.shape[0]):
+            for j in range(self.xn.shape[1]):
+                # тест - диагональные полосы
+                # self.F[i, j] = self.xn[i, j] + self.yn[i, j]
+                pass
+        # gravity_field_vector(center, point):
 
-        gravity_field_vector(center, point):
-
-    def visu_fld(self, iscalced=Calced):
+    def cntrl_calc(self):
         """
-        Визуализация расчитанного гравитационного поля шара
+        Перед визуализацией контроль вычисления
+        """
+        if not Grav_sphere.Calced or self.F is None: self.calc_fld()
+
+    def visu_fld(self):
+        """
+        Визуализация рассчитанного гравитационного поля шара
         """
         print(f"\nFunction = {inspect.currentframe().f_code.co_name}")  # Вывод имени функции
-        if not iscalced: self.calc_fld()
-
+        self.cntrl_calc()
 
         n_iso = 15  # num isolines
         fig =plt.figure(figsize=(10,8))
-        # curves1 = plt.contourf(x,y, F, n_iso)
-        # curves3 = plt.contour(x, y, F, n_iso, colors='k')
-        #
-        # fig.colorbar(curves1)plt.xlabel('X')plt.ylabel('Y')plt.title('Sphere function')plt.show()
-        pass
+        curves1 = plt.contourf(self.xn, self.yn, self.F, n_iso)
+        curves3 = plt.contour(self.xn, self.yn, self.F, n_iso, colors='k')
 
+        cbar=plt.colorbar(curves1)
+        cbar.ax.set_title(up_gr_symb[3]+'G,\nмГал') # ,fontsize=8
 
+        plt.xlabel('X, м'); plt.ylabel('У, м')
+        plt.title(Grav_sphere.name)
+        plt.show()
 
 if __name__=="__main__":
     # tst_gravity_field()
@@ -172,4 +187,4 @@ if __name__=="__main__":
     gr1=Grav_sphere()
     gr1.print_ini_param()
     gr1.make_coo()
-    gr1.calc_fld()
+    gr1.visu_fld()
