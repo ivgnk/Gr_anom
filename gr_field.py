@@ -1,6 +1,10 @@
 """
 https://heybro.ai
 расчет гравитационного поля внутри и снаружи шара:
+Все работает правильно.
+Проверка формул:
+Потенциальные геофизические поля в задачах геологии_Ладынин (2008).pdf
+с.36-37 (20)
 """
 import sys
 
@@ -12,7 +16,7 @@ from pgreek_symbols import up_gr_symb
 # Константы
 G = 6.67430e-11  # гравитационная постоянная, м^3/(кг·с^2)
 M = 5.972e24     # масса Земли, кг
-R = 6_371_000      # радиус Земли, м
+R = 6_371_000.0      # радиус Земли, м
 GM=G*M
 R3=R**3
 
@@ -66,13 +70,13 @@ def gravity_field2(r):
 
 def tst_gravity_field():
     # Пример использования
-    distance = 10_000_000 #e7  # расстояние от центра, м
+    distance = 30_000_000.0 #e7  # расстояние от центра, м
     g_value = gravity_field(distance)
     print(f"Гравитационное поле на расстоянии {distance} м от центра Земли: {g_value} м/с^2")
     g_value = gravity_field2(distance)
     print(f"Гравитационное поле на расстоянии {distance} м от центра Земли: {g_value} м/с^2")
     #-------------------
-    radius=np.arange(0,distance,1000)
+    radius=np.arange(0,distance,10000.0)
     dg=np.empty_like(radius)
     for i, radi in enumerate(radius):
         print(i, radi)
@@ -81,13 +85,10 @@ def tst_gravity_field():
         dg[i]=dg_
     # dg = [gravity_field(r) for r in radius]
     # перевод в км
-    rad_km=radius/1000
+    rad_km=radius/1000.0
     plt.plot(rad_km, dg)
     plt.xlabel('Расстояние от центра Земли, км')
     plt.grid();  plt.show()
-
-
-
 
 if __name__=="__main__":
     # tst_gravity_field()
