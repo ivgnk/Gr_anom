@@ -27,6 +27,9 @@ SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando
 https://www.petroseikon.com/EMIGMA     
 https://en.wikipedia.org/wiki/Emigma               
 
+### INTREPID 3D             
+https://www.intrepid-geophysics.com/downloads                  
+
 ### DenInv3D             
 https://github.com/xiequn789/DenInv3D
 [DenInv3D: a geophysical software for three-dimensional density inversion of gravity field data](https://academic.oup.com/jge/article/15/2/354/5078492)            
