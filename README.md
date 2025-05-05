@@ -1,5 +1,10 @@
 # Gr_anom
-Расчет гравитационных аномалий
+Расчет 2D и 3D гравитационных аномалий
+
+# Wiki                  
+https://en.wikipedia.org/wiki/Category:Geology_software                      
+https://en.wikipedia.org/wiki/Emigma
+
 
 # Other programms                 
 ## Free
@@ -16,7 +21,8 @@ SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando
 [Программа ZondGM3d](http://zond-geo.com/software/gravity-magnetic-sp/zondmag3d/)                   
 
 ## Not Free
-EMIGMA https://www.petroseikon.com/EMIGMA                           
+EMIGMA https://www.petroseikon.com/EMIGMA     
+https://en.wikipedia.org/wiki/Emigma               
 
 
 
