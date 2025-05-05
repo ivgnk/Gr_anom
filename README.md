@@ -1,9 +1,11 @@
 # Gr_anom
 Расчет 2D и 3D гравитационных аномалий
 
-# Wiki                  
+# Wiki & Lists                 
 https://en.wikipedia.org/wiki/Category:Geology_software                      
 https://en.wikipedia.org/wiki/Emigma
+- - -
+[List of Softwares: free, open-source and commercial geophysical software](https://geophysics.eu/list%20of%20softwares.htm)        
 
 
 # Other programms                 
