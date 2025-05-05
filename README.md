@@ -43,4 +43,13 @@ https://github.com/xiequn789/DenInv3D
 [DenInv3D: a geophysical software for three-dimensional density inversion of gravity field data](https://academic.oup.com/jge/article/15/2/354/5078492)            
 
 ### Scientific Computation Platform for Geophysical Geodesy                   
-https://www.zcyphygeodesy.com/en/h-col-111.html                       
+https://www.zcyphygeodesy.com/en/h-col-111.html            
+
+# Papers              
+https://www.earthdoc.org                   
+https://www.scielo.br                  
+
+https://www.scirp.org/journal : Satellite Gravity Data
+2022 [Коррекция глубинно-скоростных моделей методом гравиметрической разведки для труднодоступных участков шельфовой зоны](Коррекция глубинно-скоростных моделей методом гравиметрической разведки для труднодоступных участков шельфовой зоны)          
+2021 [Geophysical Modeling with Satellite Gravity Data: Eigen-6C4 vs. GGM Plus](https://www.scirp.org/journal/paperinformation?paperid=114338)          
+2017 [Gravimetric survey and modeling of the basement morphology in the sedimentary thickness characterization, NE portion of Paraná Sedimentary Basin – Brazil](https://www.scielo.br/j/bjgeo/a/93CR8Dt4z38rrjnZfvNFLMc/?format=pdf&lang=en)     
