@@ -3,7 +3,14 @@
 
 # Wiki & Lists                 
 https://en.wikipedia.org/wiki/Category:Geology_software                      
+https://en.wikipedia.org/wiki/List_of_free_geology_software        
+
 https://en.wikipedia.org/wiki/Emigma
+
+# Github
+https://github.com/ahinoamp/PyNoddyInversion
+
+
 - - -
 [List of Softwares: free, open-source and commercial geophysical software](https://geophysics.eu/list%20of%20softwares.htm)        
 
@@ -13,6 +20,11 @@ https://en.wikipedia.org/wiki/Emigma
 ### Pygimli
 [Gravimetry in 2D](https://www.pygimli.org/_examples_auto/4_gravimetry_magnetics/plot_02_mod-gravimetry-2d.html)                   
 
+### GemPy
+[Open-Source 3D Structural & Probabilistic Geological Modeling](https://www.gempy.org/)            
+
+**Free Download 3D Modeling Software**             
+https://sketchupfamily.com/free-download-3d-modeling-software/                 
 
 - - -
 [Каталог бесплатного геологического ПО](https://www.agbcorp.ru/free_geo_sw.html)                  
@@ -37,6 +49,9 @@ https://en.wikipedia.org/wiki/Emigma
 
 ### INTREPID 3D             
 https://www.intrepid-geophysics.com/downloads                  
+
+### Geoscience ANALYST Pro Geophysics 
+https://www.mirageoscience.com/mining-industry-software/geoscience-analyst/pro-geophysics                 
 
 ### DenInv3D             
 https://github.com/xiequn789/DenInv3D
