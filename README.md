@@ -21,9 +21,12 @@ SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando
 [Программа ZondGM3d](http://zond-geo.com/software/gravity-magnetic-sp/zondmag3d/)                   
 
 ## Not Free
-EMIGMA https://www.petroseikon.com/EMIGMA     
+### EMIGMA 
+https://www.petroseikon.com/EMIGMA     
 https://en.wikipedia.org/wiki/Emigma               
 
-
+### DenInv3D             
+https://github.com/xiequn789/DenInv3D
+[DenInv3D: a geophysical software for three-dimensional density inversion of gravity field data](https://academic.oup.com/jge/article/15/2/354/5078492)            
 
 
