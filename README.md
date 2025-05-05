@@ -10,7 +10,7 @@ SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando
 **[Environmental Magnetism and Palaeomagnetism Lancaster Environment Centre](https://www.lancaster.ac.uk/staff/hounslow/)**                
 [GravMod, v.3.2](https://www.lancaster.ac.uk/staff/hounslow/resources/software/gravmod.htm)  (Feb 2011)   
 
-**zond-geo.com**                   
+**[zond-geo.com](zond-geo.com)**                   
 [Программа ZondGM2d](http://zond-geo.com/software/gravity-magnetic-sp/zondgm2d/)               
 [Программа ZondGM3d](http://zond-geo.com/software/gravity-magnetic-sp/zondmag3d/)                   
 
