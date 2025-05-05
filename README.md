@@ -10,6 +10,11 @@ https://en.wikipedia.org/wiki/Emigma
 
 # Other programms                 
 ## Free
+### Pygimli
+[Gravimetry in 2D](https://www.pygimli.org/_examples_auto/4_gravimetry_magnetics/plot_02_mod-gravimetry-2d.html)                   
+
+
+- - -
 [Каталог бесплатного геологического ПО](https://www.agbcorp.ru/free_geo_sw.html)                  
 SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando                   
 
@@ -23,6 +28,9 @@ SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando
 [Программа ZondGM3d](http://zond-geo.com/software/gravity-magnetic-sp/zondmag3d/)                   
 
 ## Not Free
+### GravMagInv (МГУ/MSU)         
+https://www.gravmaginv.com                   
+
 ### EMIGMA 
 https://www.petroseikon.com/EMIGMA     
 https://en.wikipedia.org/wiki/Emigma               
@@ -34,4 +42,5 @@ https://www.intrepid-geophysics.com/downloads
 https://github.com/xiequn789/DenInv3D
 [DenInv3D: a geophysical software for three-dimensional density inversion of gravity field data](https://academic.oup.com/jge/article/15/2/354/5078492)            
 
-
+### Scientific Computation Platform for Geophysical Geodesy                   
+https://www.zcyphygeodesy.com/en/h-col-111.html                       
