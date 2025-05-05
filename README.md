@@ -2,6 +2,7 @@
 Расчет гравитационных аномалий
 
 # Other programms                 
+## Free
 [Каталог бесплатного геологического ПО](https://www.agbcorp.ru/free_geo_sw.html)                  
 SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando                   
 
@@ -14,6 +15,8 @@ SGeMS, PANTERRA, GEOMS2, geoix,	LogView++, geoid, Geocando
 [Программа ZondGM2d](http://zond-geo.com/software/gravity-magnetic-sp/zondgm2d/)               
 [Программа ZondGM3d](http://zond-geo.com/software/gravity-magnetic-sp/zondmag3d/)                   
 
+## Not Free
+EMIGMA https://www.petroseikon.com/EMIGMA                           
 
 
 
