@@ -7,9 +7,9 @@ https://en.wikipedia.org/wiki/List_of_free_geology_software
 
 https://en.wikipedia.org/wiki/Emigma
 
-# Github
-https://github.com/ahinoamp/PyNoddyInversion
 
+# Github
+https://github.com/ahinoamp                    
 
 - - -
 [List of Softwares: free, open-source and commercial geophysical software](https://geophysics.eu/list%20of%20softwares.htm)        
@@ -22,6 +22,13 @@ https://github.com/ahinoamp/PyNoddyInversion
 
 ### GemPy
 [Open-Source 3D Structural & Probabilistic Geological Modeling](https://www.gempy.org/)            
+
+### Noddy          
+https://github.com/cgre-aachen/pynoddy      
+https://github.com/ahinoamp/PyNoddyExamples   
+https://github.com/ahinoamp/PyNoddyInversion
+https://github.com/Loop3D/noddyverse                    
+https://web.archive.org/web/20180120065617/http://www.tectonique.net/tectask/index.php?option=com_content&view=article&id=23                 
 
 **Free Download 3D Modeling Software**             
 https://sketchupfamily.com/free-download-3d-modeling-software/                 
